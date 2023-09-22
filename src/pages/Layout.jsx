@@ -12,7 +12,7 @@ const Layout = () => {
   const { isDarkMode } = useContext(ThemeContext);
   return (
     <>
-      <main className="container relative mx-auto mt-[50px] mb-4 w-[calc(300px+700px+100px)]">
+      <main className="container relative mx-auto mt-[50px] mb-4 w-[100dvw] md:w-[700px] xl:w-[calc(300px+700px+100px)]">
         <Sidebar />
         <SideMenu />
         <ScrollToTopButton />

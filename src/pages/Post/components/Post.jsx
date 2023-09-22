@@ -21,7 +21,7 @@ const Post = ({ id, author, title, content, timestamp, tags, comments }) => {
   };
   return (
     <motion.article
-      className="posts relative shadow-sm overflow-hidden bg-white dark:bg-eerie-black-950 mt-0 mx-auto mb-[150px] rounded-2xl w-[700px]"
+      className="posts relative shadow-sm overflow-hidden bg-white dark:bg-eerie-black-950 mt-0 mx-auto mb-[150px] rounded-2xl w-full xl:w-[700px]"
       variants={itemVariants}
     >
       <div className="top-info info align-flex border-b border-solid border-alto-200 dark:border-onyx-900 bg-wild-sand-50 dark:bg-mine-shaft-950 text-tundora-700 dark:text-silver-400 p-6 flex justify-start items-center">

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const NotFoundPage = () => {
   return (
     <motion.section
-      className="relative w-[700px] ml-[400px] mt-20"
+      className="relative  w-[100dvw] md:w-[700px] ml-auto xl:ml-[400px] mt-20"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -14,7 +14,7 @@ const NotFoundPage = () => {
         <h1 className="px-6 pt-4 text-9xl mb-24 mx-0 font-lato text-mine-shaft-950 dark:text-silver-400 tracking-wider leading-5 font-bold not-italic">
           404
         </h1>
-        <h2 className="mb-8 px-6 text-4xl mx-0 font-lato text-mine-shaft-950 dark:text-silver-400 tracking-wide leading-5 font-semibold not-italic">
+        <h2 className="mb-8 px-6 text-4xl mx-0 font-lato text-mine-shaft-950 dark:text-silver-400 tracking-wide font-semibold not-italic">
           UH OH! You&#39;re lost.
         </h2>
         <p className="mb-6 px-6 mx-0 text-tundora-700 dark:text-silver-400">

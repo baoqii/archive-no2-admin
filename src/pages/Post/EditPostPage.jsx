@@ -111,18 +111,18 @@ const EditPostPage = () => {
         animate="in"
         exit="out"
         variants={Variants}
-        className="relative w-[700px] ml-[400px]"
+        className="post-container relative w-[100dvw] md:w-[700px] ml-auto xl:ml-[400px]"
       >
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="relative text-start shadow-sm bg-white dark:bg-eerie-black-950 p-9 rounded-2xl w-[700px] min-h-[1280px]"
+          className="relative text-start shadow-sm bg-white dark:bg-eerie-black-950 p-9 rounded-2xl lg:w-[700px] min-h-[1280px]"
           style={{
             backgroundImage: `url("data:image/svg+xml,${encodeURIComponent(
               svgBottom
             )}")`,
-            backgroundSize: "cover", // Adjust this property as needed
+            backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
           }}
         >
@@ -137,7 +137,7 @@ const EditPostPage = () => {
               {/* Title Field */}
               <div
                 className="form-fields flex flex-col transition-all duration-400 ease-[cubic-bezier(0.785,0.135,0.15,0.86)]
-         w-[620px] mx-auto"
+         lg:w-[620px] mx-auto"
               >
                 <div className="form-control border-0 mb-2.5 p-[15px] text-lg text-start font-semibold text-dove-gray-500 rounded-md">
                   <div className="relative">
@@ -342,7 +342,7 @@ const EditPostPage = () => {
                   <button
                     type="button"
                     onClick={handleCancelClick}
-                    className="block w-full md:inline-block md:w-auto px-6 py-3 md:py-2 bg-gray-200 font-semibold mt-4
+                    className="block w-full md:inline-block md:w-auto px-6 py-3 md:py-2 bg-gray-200 font-semibold my-4
                 md:mt-0 md:order-1
                 border cursor-pointer uppercase rounded-md text-gray-500 text-lg shadow-sm transition-all duration-200 ease-linear
                 hover:bg-gray-300 active:bg-gray-400 disabled:bg-gray-800 disabled:text-gray-100
@@ -352,7 +352,7 @@ const EditPostPage = () => {
                   </button>
                   <button
                     type="submit"
-                    className="block w-full md:inline-block md:w-auto px-6 py-3 md:py-2 font-semibold md:ml-2 md:order-2
+                    className="block w-full md:inline-block md:w-auto px-6 py-3 md:py-2 font-semibold my-4 md:ml-2 md:mt-0 md:order-2
                     border-0 cursor-pointer uppercase rounded-md text-white text-lg bg-rock-blue-500 shadow-sm transition-all duration-200 ease-linear
                     hover:bg-rock-blue-600 active:bg-rock-blue-700 disabled:bg-rock-blue-200 disabled:text-rock-blue-700
                      dark:text-eerie-black-950 dark:bg-rock-blue-400 dark:hover:bg-rock-blue-500 dark:active:bg-rock-blue-500 dark:disabled:bg-rock-blue-800 dark:disabled:text-rock-blue-100"

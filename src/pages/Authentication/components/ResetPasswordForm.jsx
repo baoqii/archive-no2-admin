@@ -20,7 +20,7 @@ export default function ResetPasswordForm() {
         <form onSubmit={handleSubmit()} className="flex flex-col mt-7">
           <div
             className="form-fields flex flex-col overflow-hidden transition-all duration-400 ease-[cubic-bezier(0.785,0.135,0.15,0.86)]
-            max-h-[400px] w-[450px] mx-auto"
+            max-h-[400px] md:w-[450px] mx-auto"
           >
             <div className="form-control border-0 mb-2.5 p-[15px] text-lg text-start font-semibold text-dove-gray-500 rounded-md">
               <div className="relative">

@@ -17,7 +17,7 @@ const LoginPage = () => {
   `;
   return (
     <motion.section
-      className="relative w-[700px] ml-[400px]"
+      className="relative  w-[100dvw] md:w-[700px] ml-auto xl:ml-[400px]"
       initial="initial"
       animate="in"
       exit="out"
@@ -27,7 +27,7 @@ const LoginPage = () => {
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.2 }}
-        className="relative text-center shadow-sm overflow-hidden bg-white dark:bg-eerie-black-950 p-10 rounded-2xl w-[700px] h-[950px]"
+        className="relative text-center shadow-sm overflow-hidden bg-white dark:bg-eerie-black-950 p-10 rounded-2xl md:w-[700px] h-[950px]"
         style={{
           backgroundImage: `url("data:image/svg+xml,${encodeURIComponent(
             svgInline
@@ -38,7 +38,7 @@ const LoginPage = () => {
       >
         <div className="h-full flex justify-center">
           <div className="container mt-[100px] text-center">
-            <h1 className="text-3xl text-white dark:text-eerie-black-950 tracking-tight font-extrabold font-lato not-italic mx-auto mt-0 mb-[60px] relative h-14 w-[450px] overflow-hidden">
+            <h1 className="text-3xl text-white dark:text-eerie-black-950 tracking-tight font-extrabold font-lato not-italic mx-auto mt-0 mb-[60px] relative h-14 md:w-[450px] overflow-hidden">
               <div
                 className={`header-headings flex flex-col w-full absolute transition-all duration-400 ease-[cubic-bezier(0.785,0.135,0.15,0.86)]
               ${

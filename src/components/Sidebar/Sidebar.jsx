@@ -20,7 +20,7 @@ const Sidebar = () => {
   const { user } = useContext(AuthContext);
 
   return (
-    <aside className="sidebar w-[300px] h-auto fixed text-center top-[50px]">
+    <aside className="sidebar relative w-full mt-auto mx-auto mb-[150px]  xl:w-[300px] h-auto xl:fixed text-center top-[50px]">
       <div className="side-image-wrap">
         <img
           src={SidebarIcon}

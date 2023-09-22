@@ -43,7 +43,7 @@ const ScrollToTopButton = () => {
       {isVisible && (
         <Fragment>
           <button
-            className="scroll-to-top-button fixed bottom-5 right-5 cursor-pointer p-1 rounded-lg bg-transparent text-rock-blue-500 dark:text-rock-blue-200 hover:text-tundora-700 dark:hover:text-silver-400 active:text-tundora-700 dark:active:text-silver-400"
+            className="scroll-to-top-button fixed bottom-5 right-5 z-40 cursor-pointer p-1 rounded-lg bg-transparent text-rock-blue-500 dark:text-rock-blue-200 hover:text-tundora-700 dark:hover:text-silver-400 active:text-tundora-700 dark:active:text-silver-400"
             onClick={scrollToTop}
             data-tooltip-id="tt-scrolltop"
             data-tooltip-content="BACK TO TOP"

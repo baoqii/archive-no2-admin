@@ -5,14 +5,14 @@ import { Variants } from "../util/AnimationVariables";
 const About = () => {
   return (
     <motion.section
-      className="post-container relative w-[700px] ml-[400px]"
+      className="post-container relative w-[100dvw] md:w-[700px] ml-auto xl:ml-[400px]"
       initial="initial"
       animate="in"
       exit="out"
       variants={Variants}
     >
       <motion.div
-        className="about relative shadow-sm overflow-hidden bg-white dark:bg-eerie-black-950 mt-0 p-10 mx-auto mb-5 rounded-2xl w-[700px]"
+        className="about relative shadow-sm overflow-hidden bg-white dark:bg-eerie-black-950 mt-0 p-10 mx-auto mb-5 rounded-2xl lg:w-[700px]"
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.2 }}
@@ -46,12 +46,12 @@ const About = () => {
         </p>
       </motion.div>
       <motion.div
-        className="wrapper flex justify-between gap-4"
+        className="wrapper flex flex-col lg:flex-row justify-between gap-4"
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.4 }}
       >
-        <div className="likedislike w-1/2 shadow-sm bg-white dark:bg-eerie-black-950 p-10 mx-auto rounded-2xl">
+        <div className="likedislike w-full lg:w-1/2 shadow-sm bg-white dark:bg-eerie-black-950 p-10 mx-auto rounded-2xl">
           <h1 className="text-mine-shaft-950 dark:text-silver-400 mb-6 transition-all duration-300 text-3xl tracking-wider leading-5 font-lato font-semibold italic">
             Likes & Dislikes
           </h1>
@@ -78,7 +78,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="contact w-1/2 shadow-sm bg-white dark:bg-eerie-black-950 p-10 mx-auto rounded-2xl">
+        <div className="contact w-full lg:w-1/2 shadow-sm bg-white dark:bg-eerie-black-950 p-10 mx-auto rounded-2xl">
           <h1 className="text-mine-shaft-950 dark:text-silver-400 mb-6 transition-all duration-300 text-3xl tracking-wider leading-5 font-lato font-semibold italic">
             Contact
           </h1>

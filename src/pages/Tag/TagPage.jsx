@@ -69,7 +69,7 @@ const TagPage = () => {
 
   return (
     <motion.section
-      className="post-container relative w-[700px] ml-[400px] bg-white dark:bg-eerie-black-950 rounded-2xl"
+      className="post-container relative  w-[100dvw] md:w-[700px] ml-auto xl:ml-[400px] bg-white dark:bg-eerie-black-950 rounded-2xl"
       initial="initial"
       animate="in"
       exit="out"
@@ -128,7 +128,7 @@ const TagPage = () => {
               onClose={closeModal}
               onCreateTag={onSubmitTag}
             />
-            <div className="grid grid-cols-3 mx-4">
+            <div className="grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] mx-4">
               {tags?.map((tag) => (
                 <div
                   key={tag._id}

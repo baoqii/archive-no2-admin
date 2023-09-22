@@ -21,7 +21,7 @@ const FilteredPosts = () => {
   };
   return (
     <motion.section
-      className="post-container relative w-[700px] ml-[400px]"
+      className="post-container relative w-[100dvw] md:w-[700px] ml-auto xl:ml-[400px]"
       initial="hidden"
       animate="visible"
       exit={{ opacity: 0, transition: { duration: 1 } }}

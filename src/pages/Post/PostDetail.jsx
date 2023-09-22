@@ -57,7 +57,7 @@ const PostDetail = () => {
 
   return (
     <motion.section
-      className="post-container relative w-[700px] ml-[400px]"
+      className="post-container relative w-[100dvw] md:w-[700px] ml-auto xl:ml-[400px]"
       initial="initial"
       animate="in"
       exit="out"
@@ -72,7 +72,7 @@ const PostDetail = () => {
       />
       {post ? (
         <motion.article
-          className="posts relative shadow-sm overflow-hidden bg-white dark:bg-eerie-black-950 mt-0 mx-auto mb-[150px] rounded-2xl w-[700px]"
+          className="posts relative shadow-sm overflow-hidden bg-white dark:bg-eerie-black-950 mt-0 mx-auto mb-[150px] rounded-2xl lg:w-[700px]"
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}

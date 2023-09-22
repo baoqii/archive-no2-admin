@@ -21,7 +21,7 @@ const ErrorMessage = ({ error }) => {
 
   return (
     <motion.section
-      className="relative w-[700px] ml-[400px] "
+      className="relative w-[100dvw] md:w-[700px] ml-auto xl:ml-[400px]"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}

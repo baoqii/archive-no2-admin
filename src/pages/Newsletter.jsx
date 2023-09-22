@@ -6,14 +6,14 @@ import { Variants } from "../util/AnimationVariables";
 const Newsletter = () => {
   return (
     <motion.section
-      className="post-container relative w-[700px] ml-[400px]"
+      className="post-container relative  w-[100dvw] md:w-[700px] ml-auto xl:ml-[400px]"
       initial="initial"
       animate="in"
       exit="out"
       variants={Variants}
     >
       <motion.div
-        className="relative text-center shadow-sm overflow-hidden bg-white dark:bg-eerie-black-950 p-10 rounded-2xl w-[700px]"
+        className="relative text-center shadow-sm overflow-hidden bg-white dark:bg-eerie-black-950 p-10 rounded-2xl lg:w-[700px]"
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.2 }}

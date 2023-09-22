@@ -49,7 +49,7 @@ const CommentsSection = ({ postId }) => {
 
   return (
     <motion.article
-      className="post-comments relative shadow-sm overflow-hidden bg-white dark:bg-eerie-black-950 mt-0 mx-auto mb-[150px] rounded-2xl w-[700px]"
+      className="post-comments relative shadow-sm overflow-hidden bg-white dark:bg-eerie-black-950 mt-0 mx-auto mb-[150px] rounded-2xl lg:w-[700px]"
       initial={{ y: 100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.2 }}
