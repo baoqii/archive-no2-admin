@@ -36,7 +36,7 @@ const SideMenu = () => {
         className="bg-transparent active:bg-rock-blue-500 dark:active:bg-east-bay-800 text-rock-blue-500 dark:text-pigeon-post-400 active:text-white w-[45px] h-[45px] grid items-center place-items-center rounded-md transition-all duration-300 ease-linear cursor-pointer hover:text-white hover:bg-rock-blue-500 dark:hover:bg-east-bay-800"
         data-tooltip-id="tt-home"
         data-tooltip-content="HOME"
-        data-tooltip-place="right"
+        data-tooltip-place="bottom"
         data-tooltip-variant={tooltipVariant}
       >
         <i className="inline-flex shrink-0 text-center">
@@ -58,7 +58,7 @@ const SideMenu = () => {
         className="bg-transparent active:bg-rock-blue-500 dark:active:bg-east-bay-800 text-rock-blue-500 dark:text-pigeon-post-400 active:text-white w-[45px] h-[45px] grid items-center place-items-center rounded-md transition-all duration-300 ease-linear cursor-pointer hover:text-white hover:bg-rock-blue-500 dark:hover:bg-east-bay-800"
         data-tooltip-id="tt-about"
         data-tooltip-content="ABOUT"
-        data-tooltip-place="right"
+        data-tooltip-place="bottom"
         data-tooltip-variant={tooltipVariant}
       >
         <i className="inline-flex shrink-0 text-center">
@@ -82,7 +82,7 @@ const SideMenu = () => {
             className="bg-transparent active:bg-rock-blue-500 dark:active:bg-east-bay-800 text-rock-blue-500 dark:text-pigeon-post-400 active:text-white w-[45px] h-[45px] grid items-center place-items-center rounded-md transition-all duration-300 ease-linear cursor-pointer hover:text-white hover:bg-rock-blue-500 dark:hover:bg-east-bay-800"
             data-tooltip-id="tt-newpost"
             data-tooltip-content="NEW POST"
-            data-tooltip-place="right"
+            data-tooltip-place="bottom"
             data-tooltip-variant={tooltipVariant}
           >
             <i className="inline-flex shrink-0 text-center">
@@ -104,7 +104,7 @@ const SideMenu = () => {
             className="bg-transparent active:bg-rock-blue-500 dark:active:bg-east-bay-800 text-rock-blue-500 dark:text-pigeon-post-400 active:text-white w-[45px] h-[45px] grid items-center place-items-center rounded-md transition-all duration-300 ease-linear cursor-pointer hover:text-white hover:bg-rock-blue-500 dark:hover:bg-east-bay-800"
             data-tooltip-id="tt-unpub"
             data-tooltip-content="UNPUBLISHED"
-            data-tooltip-place="right"
+            data-tooltip-place="bottom"
             data-tooltip-variant={tooltipVariant}
           >
             <i className="inline-flex shrink-0 text-center">
@@ -130,7 +130,7 @@ const SideMenu = () => {
         className="bg-transparent active:bg-rock-blue-500 dark:active:bg-east-bay-800 text-rock-blue-500 dark:text-pigeon-post-400 active:text-white w-[45px] h-[45px] grid items-center place-items-center rounded-md transition-all duration-300 ease-linear cursor-pointer hover:text-white hover:bg-rock-blue-500 dark:hover:bg-east-bay-800"
         data-tooltip-id="tt-navigate"
         data-tooltip-content="NAVIGATE"
-        data-tooltip-place="right"
+        data-tooltip-place="bottom"
         data-tooltip-variant={tooltipVariant}
       >
         <i className="inline-flex shrink-0 text-center">
@@ -152,7 +152,7 @@ const SideMenu = () => {
         className="bg-transparent active:bg-rock-blue-500 dark:active:bg-east-bay-800 text-rock-blue-500 dark:text-pigeon-post-400 active:text-white w-[45px] h-[45px] grid items-center place-items-center rounded-md transition-all duration-300 ease-linear cursor-pointer hover:text-white hover:bg-rock-blue-500 dark:hover:bg-east-bay-800"
         data-tooltip-id="tt-newsletter"
         data-tooltip-content="NEWSLETTER"
-        data-tooltip-place="right"
+        data-tooltip-place="bottom"
         data-tooltip-variant={tooltipVariant}
       >
         <i className="inline-flex shrink-0 text-center">
@@ -175,7 +175,7 @@ const SideMenu = () => {
             className="bg-transparent active:bg-rock-blue-500 dark:active:bg-east-bay-800 text-rock-blue-500 dark:text-pigeon-post-400 active:text-white w-[45px] h-[45px] grid items-center place-items-center rounded-md transition-all duration-300 ease-linear cursor-pointer hover:text-white hover:bg-rock-blue-500 dark:hover:bg-east-bay-800"
             data-tooltip-id="tt-logout"
             data-tooltip-content="LOG OUT"
-            data-tooltip-place="right"
+            data-tooltip-place="bottom"
             data-tooltip-variant={tooltipVariant}
           >
             <LogoutButton />
@@ -198,7 +198,7 @@ const SideMenu = () => {
             className="bg-transparent active:bg-rock-blue-500 dark:active:bg-east-bay-800 text-rock-blue-500 dark:text-pigeon-post-400 active:text-white w-[45px] h-[45px] grid items-center place-items-center rounded-md transition-all duration-300 ease-linear cursor-pointer hover:text-white hover:bg-rock-blue-500 dark:hover:bg-east-bay-800"
             data-tooltip-id="tt-login"
             data-tooltip-content="LOGIN"
-            data-tooltip-place="right"
+            data-tooltip-place="bottom"
             data-tooltip-variant={tooltipVariant}
           >
             <i className="inline-flex shrink-0 text-center">
