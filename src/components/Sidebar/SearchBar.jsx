@@ -27,7 +27,11 @@ const Searchbar = () => {
           value={searchInput}
           className="text-tundora-700 dark:text-silver-400 font-karla text-base border-none outline-none bg-inherit m-0 p-0 cursor-auto text-start w-[calc(100%-3em)]"
         />
-        <button type="submit" className="cursor-pointer mr-1 align-middle">
+        <button
+          type="submit"
+          className="cursor-pointer mr-1 align-middle"
+          aria-label="Search"
+        >
           <Search color="#9ba5cb" size={20} />
         </button>
       </form>

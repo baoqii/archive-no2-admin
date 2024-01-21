@@ -32,6 +32,7 @@ const Post = ({ id, author, title, content, timestamp, tags, comments }) => {
           >
             <img
               src={IconImage}
+              alt="avatar"
               className="w-8 h-8 mr-3 bg-white dark:bg-eerie-black-950 p-0.5 border border-solid border-white dark:border-eerie-black-950 rounded-full align-middle max-w-full hover:border-rock-blue-500 dark:hover:border-rock-blue-200 hover:transition-all hover:duration-500"
             />
           </Link>

@@ -52,6 +52,7 @@ const Sidebar = () => {
       <nav className="flex flex-wrap mt-5 justify-end gap-5 items-center">
         <button
           disabled={PrevDisabledCondition}
+          aria-label="Previous page"
           onClick={decrement}
           className={`text-dove-gray-500 dark:text-dove-gray-300 p-1.5 bg-white dark:bg-eerie-black-950 rounded-xl ${
             PrevDisabledCondition ? "cursor-not-allowed" : "cursor-pointer"
@@ -75,6 +76,7 @@ const Sidebar = () => {
         />
         <button
           disabled={NextDisabledCondition}
+          aria-label="Next page"
           onClick={increment}
           className={`text-dove-gray-500 dark:text-dove-gray-300 p-1.5 bg-white dark:bg-eerie-black-950 rounded-xl ${
             NextDisabledCondition ? "cursor-not-allowed" : "cursor-pointer"

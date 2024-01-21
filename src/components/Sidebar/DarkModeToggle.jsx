@@ -21,7 +21,7 @@ function DarkModeToggle({ isDarkMode, onToggle }) {
   return (
     <>
       <div
-        role="checkbox"
+        role="switch"
         aria-checked={isOn ? "true" : "false"}
         tabIndex={0}
         onClick={handleClick}
